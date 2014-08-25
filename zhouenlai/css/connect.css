@@ -1,0 +1,58 @@
+﻿.connect
+{
+    height: 450px;
+    width: 1024px; /*border: 1px #ff0000 solid;*/
+    margin: auto;
+    background-image: url(../picture/bj.jpg);
+}
+
+.connect_title
+{
+    height: 50px;
+    width: 1024px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.connect_title li
+{
+    list-style: none;
+}
+.connect_contant
+{
+    height: 400px;
+    width: 1024px; /*border: 1px #ff0000 solid;*/
+}
+#con
+{
+    height: 400px;
+    width: 600px; /*border: 1px #ff0000 solid;*/
+    float: left;
+    margin-left: 80px;
+}
+.connect_contant_left
+{
+    margin-top: 20px;
+    height: 200px;
+    width: 200px; /*border: 1px #ff0000 solid;*/
+    float: left;
+}
+.connect_contant_left img
+{
+    height: 200px;
+    width: 200px;
+}
+.connect_contant_right
+{
+    height: 400px;
+    width: 290px; /*border: 1px #ff0000 solid;*/
+    float: right;
+}
+
+.connect_contant_right li
+{
+    font-size: 18px;
+    line-height: 30px;
+    color: Gray;
+    float: left;
+    list-style: none;
+}

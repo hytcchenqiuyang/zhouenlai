@@ -1,0 +1,710 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>首页</title>
+    <link href="css/jiaodiantu.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery.nav.js" type="text/javascript"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="css/daohang.css" rel="stylesheet" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+</head>
+<body>
+    <!-- 代码 开始 焦点图-->
+    <div class="top">
+        <div id="inner">
+            <div class="hot-event">
+                <div class="switch-nav">
+                    <a href="#" onclick="return false;" class="prev"><i class="ico i-prev"></i><span
+                        class="hide-clip">上一个</span></a><a href="#" onclick="return false;" class="next"><i
+                            class="ico i-next"></i><span class="hide-clip">下一个</span></a></div>
+                <div class="event-item" style="display: block;">
+                    <a href="#" class="banner">
+                        <img src="images/1.jpg" class="photo" style="width: 1024px; height: 300px;" alt="测试用图片" />
+                    </a>
+                </div>
+                <div class="event-item" style="display: none;">
+                    <a href="#" class="banner">
+                        <img src="images/2.jpg" class="photo" style="width: 1024px; height: 300px;" alt="测试用图片" />
+                    </a>
+                </div>
+                <div class="event-item" style="display: none;">
+                    <a href="#" class="banner">
+                        <img src="images/3.jpg" class="photo" style="width: 1024px; height: 300px;" alt="测试用图片" />
+                    </a>
+                </div>
+                <div class="event-item" style="display: none;">
+                    <a href="#" class="banner">
+                        <img src="images/4.jpg" class="photo" style="width: 1024px; height: 300px;" alt="测试用图片" />
+                    </a>
+                </div>
+                <div class="event-item" style="display: none;">
+                    <a href="#" class="banner">
+                        <img src="images/5.jpg" class="photo" style="width: 1024px; height: 300px;" alt="测试用图片" />
+                    </a>
+                </div>
+                <div class="switch-tab">
+                    <a href="#" onclick="return false;" class="current">1</a> <a href="#" onclick="return false;">
+                        2</a> <a href="#" onclick="return false;">3</a> <a href="#" onclick="return false;">
+                            4</a> <a href="#" onclick="return false;">5</a>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $('#inner').nav({ t: 2000, a: 1000 });
+        </script>
+    </div>
+    <!-- 代码 结束  焦点图-->
+    <!--代码 开始 导航-->
+    <div class="daohang">
+        <div id="menu_out">
+            <div id="menu_in">
+                <div id="menu">
+                    <ul id="nav">
+                        <li><a class="nav_off" id="mynav0" onmouseover="javascript:qiehuan(0)" href="index.htm">
+                            <span>首 页</span></a></li>
+                        <li class="menu_line"></li>
+                        <li><a href="organization.htm" onmouseover="javascript:qiehuan(1)" id="mynav1" class="nav_off">
+                            <span>组织机构</span></a></li>
+                        <li class="menu_line"></li>
+                        <li><a href="researcher.htm" onmouseover="javascript:qiehuan(2)" id="mynav2" class="nav_off">
+                            <span>研究人员</span></a></li>
+                        <li class="menu_line"></li>
+                        <li><a href="academic.htm" onmouseover="javascript:qiehuan(3)" id="mynav3" class="nav_off">
+                            <span>学术成果</span></a></li>
+                        <li class="menu_line"></li>
+                        <li><a href="acticle1.htm" onmouseover="javascript:qiehuan(4)" id="mynav4" class="nav_off">
+                            <span>恩来事迹</span></a></li>
+                        <li class="menu_line"></li>
+                        <li><a href="links.htm" onmouseover="javascript:qiehuan(5)" id="mynav5" class="nav_off">
+                            <span>相关链接</span></a></li>
+                        <li class="menu_line"></li>
+                        <li><a href="connect.htm" onmouseover="javascript:qiehuan(6)" id="mynav6" class="nav_off">
+                            <span>联系我们</span></a></li>
+                        <li class="menu_line"></li>
+                        <li>
+                            <div id="weather">
+                                <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=1&icon=1&py=huaiyinqu&num=5"
+                                    width="300" height="30" frameborder="0" marginwidth="0" marginheight="0" scrolling="no">
+                                </iframe>
+                            </div>
+                        </li>
+                    </ul>
+                    <div id="menu_con">
+                        <div id="qh_con0" style="display: block">
+                        </div>
+                        <div id="qh_con1" style="display: none">
+                        </div>
+                        <div id="qh_con2" style="display: none">
+                        </div>
+                        <div id="qh_con3" style="display: none">
+                        </div>
+                        <div id="qh_con4" style="display: none">
+                        </div>
+                        <div id="qh_con5" style="display: none">
+                        </div>
+                        <div id="qh_con6" style="display: none">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--代码结束  导航-->
+    <div class="among">
+        <div id="among_top">
+            <!-- 代码 开始 最新动态-->
+            <div id="amongt_left">
+                <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+                <script type="text/javascript">
+                    (function ($) {
+
+                        $.fn.myScroll = function (options) {
+                            //默认配置
+                            var defaults = {
+                                speed: 45,  //滚动速度,值越大速度越慢
+                                rowHeight: 24 //每行的高度
+                            };
+
+                            var opts = $.extend({}, defaults, options), intId = [];
+
+                            function marquee(obj, step) {
+
+                                obj.find("ul").animate({
+                                    marginTop: '-=1'
+                                }, 0, function () {
+                                    var s = Math.abs(parseInt($(this).css("margin-top")));
+                                    if (s >= step) {
+                                        $(this).find("li").slice(0, 1).appendTo($(this));
+                                        $(this).css("margin-top", 0);
+                                    }
+                                });
+                            }
+
+                            this.each(function (i) {
+                                var sh = opts["rowHeight"], speed = opts["speed"], _this = $(this);
+                                intId[i] = setInterval(function () {
+                                    if (_this.find("ul").height() <= _this.height()) {
+                                        clearInterval(intId[i]);
+                                    } else {
+                                        marquee(_this, sh);
+                                    }
+                                }, speed);
+
+                                _this.hover(function () {
+                                    clearInterval(intId[i]);
+                                }, function () {
+                                    intId[i] = setInterval(function () {
+                                        if (_this.find("ul").height() <= _this.height()) {
+                                            clearInterval(intId[i]);
+                                        } else {
+                                            marquee(_this, sh);
+                                        }
+                                    }, speed);
+                                });
+
+                            });
+
+                        }
+
+                    })(jQuery);
+
+                    $(function () {
+
+                        $("div.ranklist").myScroll({
+                            speed: 45,
+                            rowHeight: 24
+                        });
+
+                    });
+                </script>
+                <style type="text/css">
+                    *
+                    {
+                        margin: 0;
+                        padding: 0;
+                        list-style-type: none;
+                    }
+                    a, img
+                    {
+                        border: 0;
+                    }
+                    a, a:visited
+                    {
+                        color: #5e5e5e;
+                        text-decoration: none;
+                    }
+                    a:hover
+                    {
+                        color: #b52725;
+                        text-decoration: underline;
+                    }
+                    .clear
+                    {
+                        display: block;
+                        overflow: hidden;
+                        clear: both;
+                        height: 0;
+                        line-height: 0;
+                        font-size: 0;
+                    }
+                    body
+                    {
+                        font: 12px/180% Arial, Helvetica, sans-serif;
+                    }
+                    .demo
+                    {
+                        width: 302px;
+                        margin: 0px auto;
+                        border: solid 1px #ddd;
+                        padding: 0px;
+                    }
+                    .demo h2
+                    {
+                        font-size: 14px;
+                        color: #333;
+                        height: 30px;
+                        line-height: 30px;
+                        padding: 0;
+                        color: #b52725;
+                    }
+                    /* ranklist */
+                    .ranklist
+                    {
+                        height: 302px;
+                        overflow: hidden;
+                    }
+                    .ranklist li
+                    {
+                        height: 16px;
+                        line-height: 16px;
+                        overflow: hidden;
+                        position: relative;
+                        padding: 0px;
+                        margin: 0 0 10px 0;
+                    }
+                    .ranklist li em
+                    {
+                        background: url(images/mun.gif) no-repeat;
+                        width: 20px;
+                        height: 16px;
+                        overflow: hidden;
+                        display: block;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        text-align: center;
+                        font-style: normal;
+                        color: #333;
+                    }
+                    .ranklist li em
+                    {
+                        background-position: 0 -16px;
+                    }
+                    .ranklist li.top em
+                    {
+                        background-position: 0 0;
+                        color: #fff;
+                    }
+                    .ranklist li .num
+                    {
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        color: #999;
+                    }
+                </style>
+                <div class="demo">
+                    <h2>
+                        最新动态 News</h2>
+                    <div class="ranklist">
+                        <ul>
+                            <li>
+                                <p>
+                                    <a href="wenzhang.htm">[组图]汪浩为离退休党员作"周恩来与群众路线"专题报告 10-29</a></p>
+                            </li>
+                            <li>
+                                <p>
+                                    <a href="wenzhang.htm">[组图]汪浩为离退休党员作"周恩来与群众路线"专题报告 10-29</a></p>
+                                <li>
+                                    <p>
+                                        <a href="wenzhang.htm">[组图]汪浩参加第四届周恩来研究国际学术研讨会 10-25</a></p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="wenzhang.htm">[图文]朱延华、闫超栋参加第七届创建周恩来邓颖超班经验交流会 09-21</a></p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="wenzhang.htm">[图文]王家云教授为经管学院大一新生做学习周恩来精神报告 09-14</a></p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="wenzhang.htm">汪浩出席全国周恩来思想生平研究会2013年年会暨“周恩来与文化建 09-13</a></p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="wenzhang.htm">[组图]王家云教授应邀在省教育厅的党组织活动中作“学恩来精神 做 07-07</a></p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="wenzhang.htm">[图文]王家云应邀在省教育考试院开展的党日活动中作“周恩来精神 04-29</a></p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="wenzhang.htm">[组图]汪浩的《恩泽堂文稿：周恩来：学习与研究》出版发行 04-27</a></p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="wenzhang.htm">[组图]省高校“周恩来班”创建工作座谈会在我校举行 04-26</a></p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="wenzhang.htm">[组图]王家云、闫超栋为物电学院学生作“恩来精神与青年成长” 专 04-23</a></p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="wenzhang.htm">《用周恩来精神办学育人的实践路径》在我校首发 03-29</a></p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="wenzhang.htm">我校12位同志当选淮安市周恩来邓颖超研究理事会成员 03-11</a></p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="wenzhang.htm">[图文]我校举行纪念周恩来诞辰115周年研讨会 03-05</a></p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="wenzhang.htm">[图文]《淮安日报》发表王新鑫文章：《用周恩来精神教育青年人— 12-07</a></p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <a href="wenzhang.htm">[图文]《用周恩来精神办学育人的实践路径——以淮阴师范学院为例</a></p>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 代码 结束 最新动态-->
+            <!-- 代码 开始 一些文章-->
+            <div id="amongt_among">
+                <!--第一篇文章-->
+                <div class="boxupmiddle_content">
+                    <p1>
+                           周恩来经典外交事迹</p1>
+                    <p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1971年，基辛格博士为恢复中美外交关系秘密访华。
+                        在一次正式谈判尚未开始之前， 基辛格突然向周恩来总理提出一个要求： “尊敬的总理阁下，贵国马王堆一号汉墓的发掘成果 <a href="acticle1.htm"
+                           >详细>></a>
+                    </p>
+                </div>
+                <!--第二篇文章-->
+                <div class="boxupmiddle_content">
+                    <p1>
+                             周恩来经典语录</p1>
+                    <p>
+                        1.为中华崛起而读书。
+                        <br />
+                        2.中国人几乎占世界人口的1/4 。这样大的国家，如果在文化上不能对世界有所贡献，经济上不能有较快的 <a href="acticle2.htm">
+                            详细>></a>
+                    </p>
+                </div>
+                <!--第三篇文章-->
+                <div class="boxupmiddle_content">
+                    <p1>
+                            周恩来小故事</p1>
+                    <p>
+                        1946年1月，周恩来同志从延安乘飞机去重庆。同行的除了工作人员，还有叶挺的女儿小扬眉。 起初，飞机飞得又快又稳。透过云层，可以看到积雪的山峰层层叠叠，好像波涛汹涌的大海。
+                        <a href="acticle3.htm">详细>></a>
+                    </p>
+                </div>
+            </div>
+            <!-- 代码 结束 一些文章-->
+            <div id="amongt_right">
+                <div id="cntR">
+                    <div id="NewsTop">
+                        <div id="NewsTop_tit">
+                            <p class="topTit">
+                                新闻排行</p>
+                            <p class="topC0">
+                                国内</p>
+                            <p class="topC0">
+                                国际</p>
+                            <p class="topC0">
+                                社会</p>
+                            <p class="topC0">
+                                网评</p>
+                        </div>
+                        <div id="NewsTop_cnt">
+                            <span title="Don't delete me"></span><span><a href="wenzhang.htm">新疆阜康铁路桥梁坍塌多节运煤车厢侧翻坠河</a><br />
+                                <a href="wenzhang.htm">最高法:承诺不判赖昌星死刑没有超越法律程序</a><br />
+                                <a href="wenzhang.htm">物权法:满70年住宅建设用地使用权将自动续期</a><br />
+                                <a href="wenzhang.htm">弟弟被妻下药毒死男子买女尸为其配阴婚(图)</a><br />
+                                <a href="wenzhang.htm">揭开郑州神枪手神秘面纱 头号狙击手是近视眼</a><br />
+                                <a href="wenzhang.htm">美军高官:不排除和中国发生直接事对抗可能</a><br />
+                                <a href="wenzhang.htm">浙江东阳传奇富姐吴英涉嫌非法吸收存款被批捕</a><br />
+                                <a href="wenzhang.htm">西方炒作"中国航母威胁论"称05年已正式服役</a><br />
+                                <a href="wenzhang.htm">女孩生活无法自理请人大代表递交安乐死议案</a><br />
+                                <a href="wenzhang.htm">建设部：住房公积金制度将覆盖农民工</a><br />
+                                <div align="right">
+                                    <a href="wenzhang.htm">...more</a></div>
+                            </span><span><a href="wenzhang.htm">美华裔女兵在营房上吊死亡军方介入调查(图)</a><br />
+                                <a href="wenzhang.htm">组图：美国总统布什被撞</a><br />
+                                <a href="wenzhang.htm">梦露掌握肯尼迪之弟秘密遭诱骗自杀(组图)</a><br />
+                                <a href="wenzhang.htm">孟加拉国严打贪官人人自危奔驰宝马抛弃路边</a><br />
+                                <a href="wenzhang.htm">韩国将举行大规模军事演习(图文)</a><br />
+                                <a href="wenzhang.htm">组图：土星最大卫星表面发现“海洋”</a><br />
+                                <a href="wenzhang.htm">墨西哥缉毒行动缴获2亿美元巨额现钞(组图)</a><br />
+                                <a href="wenzhang.htm">组图：全球掀起裸体抗议加拿大捕猎海豹活动</a><br />
+                                <a href="wenzhang.htm">美潜艇在百慕大失踪一晚航母战群出动搜索</a><br />
+                                <a href="wenzhang.htm">匈牙利20万人示威 政要被民众扔鸡蛋(组图)</a><br />
+                                <div align="right">
+                                    <a href="wenzhang.htm">...more</a></div>
+                            </span><span><a href="wenzhang.htm">深圳女工被三名男子轮奸男友目睹过程(组图)</a><br />
+                                <a href="wenzhang.htm">男子珍藏一角钱“币王”价格高达1.3万(图)</a><br />
+                                <a href="wenzhang.htm">青海女孩被困洗头房每天接客十几次(图)</a><br />
+                                <a href="wenzhang.htm">组图：老妻少夫演绎忘年恋69岁妻子成功除皱</a><br />
+                                <a href="wenzhang.htm">陕西蓝田县电视台播放淫秽影像 达10分钟左右</a><br />
+                                <a href="wenzhang.htm">女子自称被大学教授诱骗同居讨要分手费(图)</a><br />
+                                <a href="wenzhang.htm">组图：男女私处成造型“性”趣礼品太出格</a><br />
+                                <a href="wenzhang.htm">组图：四川泸州16岁女孩打造中国第一丑女</a><br />
+                                <a href="wenzhang.htm">最高法:承诺不判赖昌星死刑没有超越法律程序</a><br />
+                                <a href="wenzhang.htm">深圳发现睾丸被摘男童尸体续：疑为1月前失踪</a><br />
+                                <div align="right">
+                                    <a href="wenzhang.htm">...more</a></div>
+                            </span><span><a href="wenzhang.htm">养路费征稽员强制扣车致三轮车夫惨死车轮下</a><br />
+                                <a href="wenzhang.htm">20多位学者谈中医问题 方舟子遭多名专家批驳</a><br />
+                                <a href="wenzhang.htm">考研女生自称揭露监考老师作弊 成绩被判零分</a><br />
+                                <a href="wenzhang.htm">全国政协委员建议一户一房制引起网民热议</a><br />
+                                <a href="wenzhang.htm">河南周口市6名警察将人打昏后扔下楼摔死</a><br />
+                                <a href="wenzhang.htm">组图：69岁老妻除皱成功 与少夫开始新生活</a><br />
+                                <a href="wenzhang.htm">青海女孩被困洗头房每天接客十几次(图)</a><br />
+                                <a href="wenzhang.htm">美上将：解放军不是美军对手 导弹打不垮台湾</a><br />
+                                <a href="wenzhang.htm">新疆阜康铁路桥梁坍塌导致运煤列车脱轨</a><br />
+                                <a href="wenzhang.htm">铁道部回应吴敬琏质疑:春运不涨价将长期坚持</a><br />
+                                <div align="right">
+                                    <a href="wenzhang.htm">...more</a></div>
+                            </span>
+                        </div>
+                        <script>
+                            var Tags = document.getElementById('NewsTop_tit').getElementsByTagName('p');
+                            var TagsCnt = document.getElementById('NewsTop_cnt').getElementsByTagName('span');
+                            var len = Tags.length;
+                            var flag = 1; //修改默认值
+                            for (i = 1; i < len; i++) {
+                                Tags[i].value = i;
+                                Tags[i].onmouseover = function () { changeNav(this.value) };
+                                TagsCnt[i].className = 'undis';
+                            }
+                            Tags[flag].className = 'topC1';
+                            TagsCnt[flag].className = 'dis';
+                            function changeNav(v) {
+                                Tags[flag].className = 'topC0';
+                                TagsCnt[flag].className = 'undis';
+                                flag = v;
+                                Tags[v].className = 'topC1';
+                                TagsCnt[v].className = 'dis';
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="among_bottom">
+            <div class="amongb_left">
+                <div class="amongb_title">
+                    <h1>
+                        著作</h1>
+                </div>
+                <ul>
+                    <li><a href="wenzhang.htm">周恩来思想政治教育理论与实践研究</a></li>
+                    <li><a href="wenzhang.htm">恩泽堂文稿；周恩来：学习与研究</a></li>
+                    <li><a href="wenzhang.htm">周恩来研究（第5辑）：用周恩来精神办学育人的实践 </a></li>
+                    <li><a href="wenzhang.htm">周恩来思想与精神研究</a> </li>
+                    <li><a href="wenzhang.htm">周恩来青少年时期部分作文与旅日日记选编</a></li>
+                    <li><a href="wenzhang.htm">周恩来与中共第一代领导集体</a></li>
+                    <li><a href="wenzhang.htm">周恩来是代表最广大人民根本利益的楷模</a></li>
+                    <li><a href="wenzhang.htm">用周恩来精神办学育人的实践路径</a></li>
+                    <li><a href="wenzhang.htm">周恩来研究（第4辑）：弘扬周恩来精神</a></li>
+                    <li><a href="wenzhang.htm">周恩来与中共第一代领导集体</a></li>
+                </ul>
+            </div>
+            <div class="amongb_left">
+                <div class="amongb_title">
+                    <h1>
+                        论文</h1>
+                </div>
+                <ul>
+                    <li><a href="wenzhang.htm">周恩来思想政治教育的科学方法解析</a></li>
+                    <li><a href="wenzhang.htm">周恩来精神视域下的高校班级学生党员党性修养教育</a></li>
+                    <li><a href="wenzhang.htm">周恩来的自律精神对当下道德教育的启示</a></li>
+                    <li><a href="wenzhang.htm">论周恩来的戏剧改革思想 </a></li>
+                    <li><a href="wenzhang.htm">论周恩来精神对独立学院创建先进班级体的引导作用</a></li>
+                    <li><a href="wenzhang.htm">浅析周恩来精神与大学生人生价值取向</a></li>
+                    <li><a href="wenzhang.htm">周恩来思想政治教育理论的历史逻辑演进</a></li>
+                    <li><a href="wenzhang.htm">三个融入：周恩来精神育人的实践探索 </a></li>
+                    <li><a href="wenzhang.htm">周恩来对马克思主义中国化的贡献——兼论马克思主</a></li>
+                    <li><a href="wenzhang.htm">周恩来精神与当代青少年思想道德教育的契合点</a></li>
+                </ul>
+            </div>
+            <div class="amongb_left">
+                <div class="amongb_title">
+                    <h1>
+                        最新资讯</h1>
+                </div>
+                <ul>
+                    <li><a href="wenzhang.htm">外国土豪豹子当宠物 中外有钱人雷人炫富PK(图)</a></li>
+                    <li><a href="wenzhang.htm">爱犬走丢 男子手绘“催泪”寻狗启事 </a></li>
+                    <li><a href="wenzhang.htm">帅呆了！狗狗戴墨镜头盔坐摩的 </a></li>
+                    <li><a href="wenzhang.htm">台湾摊主重摔幼猫致死，夜市下跪道歉</a> </li>
+                    <li><a href="wenzhang.htm">微摄影巡展，关爱流浪动物，照亮生命之旅！</a></li>
+                    <li><a href="wenzhang.htm">宠物狗频繁遭窃 常州将推广“宠物狗定位系统” </a></li>
+                    <li><a href="wenzhang.htm">男子狠心将狗从6楼扔下 被民警消防救下取名“九妹”</a></li>
+                    <li><a href="wenzhang.htm">长春崇智路一男子牵两只可爱狗狗捡破烂 惹市民怜爱 </a></li>
+                    <li><a href="wenzhang.htm">网购宠物应谨慎 避免四大风险</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--研究人员-->
+        <div class="bottom_pic">
+            <p>
+                研究人员</p>
+            <br />
+            <hr class="hr0" />
+            <div id="demo" style="overflow: hidden; width: 1024px; color: #ffffff">
+                <table cellspacing="0" cellpadding="0" align="left" border="0" cellspace="0">
+                    <tbody>
+                        <tr>
+                            <td id="demo1" valign="top">
+                                <table width="1024" height="128" border="0" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td>
+                                            <img src="picture/郑勇.gif" width="103" height="100" />
+                                        </td>
+                                        <td>
+                                            <img src="picture/胡相峰.jpg" width="103" height="100" />
+                                        </td>
+                                        <td>
+                                            <img src="picture/杨亚军.jpg" width="103" height="100" />
+                                        </td>
+                                        <td>
+                                            <img src="picture/汪浩.jpg" width="103" height="100" />
+                                        </td>
+                                        <td>
+                                            <img src="picture/王家云.jpg" width="103" height="100" />
+                                        </td>
+                                        <td>
+                                            <img src="picture/韩同友.jpg" width="103" height="100" />
+                                        </td>
+                                        <td>
+                                            <img src="picture/朱延华.jpg" width="103" height="100" />
+                                        </td>
+                                        <td>
+                                            <img src="picture/邵广侠.jpg" width="103" height="100" />
+                                        </td>
+                                        <td>
+                                            <img src="picture/徐贵权.jpg" width="103" height="100" />
+                                        </td>
+                                        <td>
+                                            <img src="picture/唐健.jpg" width="103" height="100" />
+                                        </td>
+                                        <td>
+                                            <img src="picture/张同刚.jpg" width="103" height="100" />
+                                        </td>
+                                        <td>
+                                            <img src="picture/张超.jpg" width="103" height="100" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td id="demo2" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr class="hr0" />
+            <script>                var speed3 = 25//速度数值越大速度越慢
+                demo2.innerHTML = demo1.innerHTML
+                function Marquee() {
+                    if (demo2.offsetWidth - demo.scrollLeft <= 0)
+                        demo.scrollLeft -= demo1.offsetWidth
+                    else {
+                        demo.scrollLeft++
+                    }
+                }
+                var MyMar = setInterval(Marquee, speed3)
+                demo.onmouseover = function () { clearInterval(MyMar) }
+                demo.onmouseout = function () { MyMar = setInterval(Marquee, speed3) }</script>
+        </div>
+        <script language="javascript" type="text/javascript">
+<!--            //--><![CDATA[//><!--
+            //图片滚动列表 mengjia 070816
+            var Speed = 1; //速度(毫秒)
+            var Space = 5; //每次移动(px)
+            var PageWidth = 1024; //翻页宽度
+            var fill = 0; //整体移位
+            var MoveLock = false;
+            var MoveTimeObj;
+            var Comp = 0;
+            var AutoPlayObj = null;
+            GetObj("List2").innerHTML = GetObj("List1").innerHTML;
+            GetObj('ISL_Cont').scrollLeft = fill;
+            GetObj("ISL_Cont").onmouseover = function () { clearInterval(AutoPlayObj); }
+            GetObj("ISL_Cont").onmouseout = function () { AutoPlay(); }
+            AutoPlay();
+            function GetObj(objName) { if (document.getElementById) { return eval('document.getElementById("' + objName + '")') } else { return eval('document.all.' + objName) } }
+            function AutoPlay() { //自动滚动
+                clearInterval(AutoPlayObj);
+                AutoPlayObj = setInterval('ISL_GoDown();ISL_StopDown();', 3000); //间隔时间
+            }
+            function ISL_GoUp() { //上翻开始
+                if (MoveLock) return;
+                clearInterval(AutoPlayObj);
+                MoveLock = true;
+                MoveTimeObj = setInterval('ISL_ScrUp();', Speed);
+            }
+            function ISL_StopUp() { //上翻停止
+                clearInterval(MoveTimeObj);
+                if (GetObj('ISL_Cont').scrollLeft % PageWidth - fill != 0) {
+                    Comp = fill - (GetObj('ISL_Cont').scrollLeft % PageWidth);
+                    CompScr();
+                } else {
+                    MoveLock = false;
+                }
+                AutoPlay();
+            }
+            function ISL_ScrUp() { //上翻动作
+                if (GetObj('ISL_Cont').scrollLeft <= 0) { GetObj('ISL_Cont').scrollLeft = GetObj('ISL_Cont').scrollLeft + GetObj('List1').offsetWidth }
+                GetObj('ISL_Cont').scrollLeft -= Space;
+            }
+            function ISL_GoDown() { //下翻
+                clearInterval(MoveTimeObj);
+                if (MoveLock) return;
+                clearInterval(AutoPlayObj);
+                MoveLock = true;
+                ISL_ScrDown();
+                MoveTimeObj = setInterval('ISL_ScrDown()', Speed);
+            }
+            function ISL_StopDown() { //下翻停止
+                clearInterval(MoveTimeObj);
+                if (GetObj('ISL_Cont').scrollLeft % PageWidth - fill != 0) {
+                    Comp = PageWidth - GetObj('ISL_Cont').scrollLeft % PageWidth + fill;
+                    CompScr();
+                } else {
+                    MoveLock = false;
+                }
+                AutoPlay();
+            }
+            function ISL_ScrDown() { //下翻动作
+                if (GetObj('ISL_Cont').scrollLeft >= GetObj('List1').scrollWidth) { GetObj('ISL_Cont').scrollLeft = GetObj('ISL_Cont').scrollLeft - GetObj('List1').scrollWidth; }
+                GetObj('ISL_Cont').scrollLeft += Space;
+            }
+            function CompScr() {
+                var num;
+                if (Comp == 0) { MoveLock = false; return; }
+                if (Comp < 0) { //上翻
+                    if (Comp < -Space) {
+                        Comp += Space;
+                        num = Space;
+                    } else {
+                        num = -Comp;
+                        Comp = 0;
+                    }
+                    GetObj('ISL_Cont').scrollLeft -= num;
+                    setTimeout('CompScr()', Speed);
+                } else { //下翻
+                    if (Comp > Space) {
+                        Comp -= Space;
+                        num = Space;
+                    } else {
+                        num = Comp;
+                        Comp = 0;
+                    }
+                    GetObj('ISL_Cont').scrollLeft += num;
+                    setTimeout('CompScr()', Speed);
+                }
+            }
+            //--><!]]>
+        </script>
+        <!--研究人员-->
+    </div>
+    <div class="buttom">
+        <!--版权说明-->
+        <p>
+            <a href="#">友情连接</a> &nbsp;|&nbsp;<a href="#">招贤纳士</a> &nbsp;|&nbsp;<a href="#">联系我们</a>
+            &nbsp;|&nbsp;<a href="#">问题反馈</a> &nbsp;|&nbsp;<span>恩来研究网 &nbsp; 版权所有</span>
+        </p>
+        <p>
+            <a href="http://www.hytc.edu.cn"><span>江苏省淮安市长江西路111号</span></a>
+        </p>
+    </div>
+</body>
+</html>

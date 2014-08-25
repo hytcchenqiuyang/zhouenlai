@@ -1,0 +1,99 @@
+﻿body
+{
+    background-image: url(../picture/bg0.gif);
+}
+.readme
+{
+    min-height: 500px;
+    width: 924px;
+    margin: 0 auto; /*border: 1px #660 solid; */
+}
+.readme h1
+{
+    text-align: center;
+}
+.readme1 h3
+{
+    font-size: 18px;
+    line-height: 18px;
+    text-align: left;
+}
+.readme1
+{
+    min-height: 160px;
+    width: 924px;
+    margin: auto; /*border: 1px #660 solid; */
+}
+.readme11
+{
+    min-height: 160px;
+    width: 924px;
+    margin: auto; /*border: 1px #660 solid;*/
+}
+.readme1 h4
+{
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 40px;
+}
+
+.readme1 h4 img
+{
+    height: 100px;
+    width: 100px;
+}
+.readme2
+{
+    width: 132px;
+    height: 160px; /*border: 1px #600 solid; */
+    float: left;
+    padding-left: 40px;
+}
+.readme3
+{
+    width: 432px;
+    height: 160px; /* border: 1px #600 solid;*/
+    float: left;
+    padding-left: 40px;
+}
+.readme1 h5
+{
+    font-size: 16px;
+    line-height: 18px;
+    padding-left: 20px;
+}
+.buttom
+{
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 12px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    margin: 0px auto;
+    color: black;
+    line-height: 100%;
+    text-align: center;
+    width: 924px;
+    height: 45px; /*border: 1px #ff0000 solid;*/
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+#bj
+{
+    min-height: 160px;
+    width: 924px;
+    margin: auto;
+    background-image: url(../picture/introduce/10.jpg);
+}
+.introduce
+{
+    min-height: 500px;
+    width: 924px;
+    margin: auto; /*border: 1px #660 solid; */
+}
+.introduce li img
+{
+    height: 60px;
+    width: 300px;
+}

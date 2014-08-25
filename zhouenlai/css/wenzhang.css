@@ -1,0 +1,21 @@
+﻿.wenzhang
+{
+    width: 1024px;
+    min-height: 600px;
+    margin: auto;
+    border: 1px #b52725 solid;
+    margin-top: 5px;
+}
+.wenzhang h1
+{
+    line-height: 40px;
+    font-size: 20px;
+}
+.wenzhang li
+{
+    font-size: 14px;
+    line-height: 30px;
+    word-spacing: 2px;
+    text-align: left;
+    list-style:none;
+}

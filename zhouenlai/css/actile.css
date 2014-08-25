@@ -1,0 +1,83 @@
+﻿
+.actile1
+{
+    width: 1024px;
+    min-height: 600px;
+    margin: auto; /*border: 1px #b52725 solid;*/
+    margin-top: 5px;
+}
+.actile1 h1
+{
+    padding-top: 5px;
+    text-indent: 1em;
+    font-size: 20px;
+    font-family: 宋体;
+    line-height: 20px;
+    letter-spacing: 5px;
+}
+
+.hr
+{
+    width: 50%;
+    height: 1px;
+    border: none;
+    border-top: 2px dashed #ddd;
+}
+.hr1
+{
+    height: 1px;
+    border: none;
+    border-top: 2px dashed #ddd;
+}
+.actile1_left
+{
+    width: 250px;
+    min-height: 600px;
+    border: 1px #666 solid;
+    float: left;
+}
+.actile1_right
+{
+    float: right;
+    width: 760px;
+    height: 600px;
+    border: 1px #666 solid;
+    overflow: scroll;
+}
+.actile1 h2
+{
+    padding-top: 5px;
+    text-indent: 2em;
+    font-size: 14px;
+    font-family: 宋体;
+    font-weight: normal;
+    line-height: 35px;
+    letter-spacing: 1px;
+    margin: 0px auto;
+}
+.actile1 h3
+{
+    padding-top: 5px;
+    text-indent: 1em;
+    font-size: 16px;
+    font-family: 宋体;
+    line-height: 20px;
+    letter-spacing: 5px;
+}
+.actile1 A
+{
+    color: #666;
+    text-decoration: none;
+}
+.actile1 A:hover
+{
+    color: #b52725;
+    text-decoration: underline;
+}
+.actile1_right h2
+{
+    font-size: 14px;
+    line-height: 28px;
+    text-align: left;
+    padding-left:40px;
+}
